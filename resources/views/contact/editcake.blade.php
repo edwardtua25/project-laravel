@@ -8,9 +8,9 @@
   <div class="card-header text-white">Edit Cake</div>
   <div class="card-body">
       
-      <form action="{{ url('contact/' .$makanan->id) }}" method="post">
+      <form action="{{ url('/edit-cake/' .$makanan->id) }}" method="post">
         {!! csrf_field() !!}
-        @method("PATCH")
+       
         <input type="hidden" name="id" id="id" value="{{$makanan->id}}" id="id" />
         <label class="text-white">Name</label></br>
         <input type="text" name="nama" id="name" value="{{$makanan->nama}}" class="form-control"></br>
