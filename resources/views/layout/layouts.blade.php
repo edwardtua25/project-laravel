@@ -95,7 +95,7 @@
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="1000">
-                <img src="edit2.JPG" class="d-block  w-100"  alt="...">
+                <img src="edit2.jpg" class="d-block  w-100"  alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h3 style="color:#1c1c1c;display:inline-flex;background-color:rgba(246, 174, 80, 0.537)">Kami menyediakan berbagai macam menu makanan dan minuman kesukaan anda</h3>
                   <p style="color: #1c1c1c;display:inline-flex;background-color:rgba(246, 174, 80, 0.537)">Anda dapat mengunjungi tempat kami secara langsung</p>
