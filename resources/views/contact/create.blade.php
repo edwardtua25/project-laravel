@@ -11,13 +11,13 @@
       <form action="{{ url('contact') }}" method="post" >
         {!! csrf_field() !!}
         <label class="text-white">Name</label></br>
-        <input type="text" name="name" id="name" class="form-control"></br>
+        <input type="text" name="name"  class="form-control"></br>
         <label class="text-white">Username</label></br>
-        <input type="text" name="address" id="username" class="form-control"></br>
+        <input type="text" name="username"  class="form-control"></br>
         <label class="text-white">email</label></br>
-        <input type="text" name="mobile" id="email" class="form-control"></br>
+        <input type="text" name="email"  class="form-control"></br>
         <label class="text-white">Password</label></br>
-        <input type="text" name="mobile" id="email" class="form-control"></br>
+        <input type="password" name="password"  class="form-control"></br>
 
         <input type="submit" value="Save" class="btn btn-warning"></br>
     </form>
