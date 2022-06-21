@@ -19,7 +19,13 @@
             <img src="{{  url('asset/gambar/'.$item->gambar) }}" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
             @endforeach
             <p>
-             
+             Halo semua!
+Hari ini kita punya menu <b>Of The Day</b> yang sangat menggugah selera tentunya bisa menuntaskan rasa lapar dan haus kalian.
+Seperti biasa El Tona CoffeeHouse selalu menghadirkan 8 menu yang akan tersedia pada hari ini.
+Karena menu hari ini belum tentu ada di esok hari,jadi tunggu apalagi? berkunjung lah sebelum kehabisan!
+Ayooo...
+Jangan sampai  ketinggalan yaaa,
+Ditunggu kedatangannya
             </p>
           </div>
           <br><br>
