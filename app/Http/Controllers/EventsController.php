@@ -44,7 +44,7 @@ class EventsController extends Controller
         return view('contact.editeven',compact('even'));
     }
 
-    public function proseseditfood(Request $request, $id){
+    public function prosesediteven(Request $request, $id){
        $even =Events::find($id);
        $even ->update($request->all());
 
