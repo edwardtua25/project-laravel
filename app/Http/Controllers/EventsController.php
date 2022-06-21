@@ -33,6 +33,7 @@ class EventsController extends Controller
         $newMobil->nama = $request->nama;
         $newMobil->gambar = $namafile;
         $newMobil->deskripsi = $request->deskripsi;
+         $newMobil->waktu = $request->waktu;
         $newMobil->save();
         return redirect('/admin-even')->with('status', 'Menu berhasil di tambahkan');
     }
