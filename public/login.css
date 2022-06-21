@@ -1,0 +1,117 @@
+body{
+    margin-bottom: 0px;
+    padding: none;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    
+    background: url(bg.jpg)
+}
+.login-box1{
+    width: 300px ;
+    height: 350px;
+    background: hsl(0, 0%, 0%);
+    color: rgb(249, 249, 249);
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border;
+    padding: 70px;
+    transform: translate(-50%, -50%);
+    padding-bottom: 10px;
+    margin-top: -80px;
+    padding-bottom:50px ;
+    margin-bottom: 2px;
+    
+    
+}
+.login-box2{
+    width: 300px ;
+    height: 500px;
+    background: hsl(0, 0%, 0%);
+    color: rgb(249, 249, 249);
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border;
+    padding: 70px;
+    transform: translate(-50%, -50%);
+    padding-bottom: 10px;
+    margin-top: -60px;
+    padding-bottom:50px ;
+    margin-bottom: 2px;
+    
+    
+}
+.logo{
+    width: 200px;
+    height: 90px;
+    border-radius: none;
+    position: absolute;
+    top: 50px;
+    left: calc(50% - 22%);
+    
+}
+h2{
+    margin-top: -60px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.login-box1 input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box2 input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box1 input[type="text"], input[type="password"], input[type="email"]{
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box2 input[type="text"], input[type="password"], input[type="email"]{
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box1 input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+   
+    background: rgb(255, 255, 255);
+    
+}
+.login-box2 input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+   
+    background: rgb(255, 255, 255);
+    
+}
+.login-box1 input[type="submit"]:hover {
+    cursor: pointer;
+    background: rgb(246, 172, 0);
+}
+.login-box2 input[type="submit"]:hover {
+    cursor: pointer;
+    background: rgb(246, 172, 0);
+}
