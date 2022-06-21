@@ -27,10 +27,10 @@
           <h2>Event</h2>
           <hr>
           @foreach ($even as $satu)
-          <div class="card mb-5" style="max-width:1000px;">
+          <div class="card mb-5" style="max-width:2000px;">
             <div class="row g-0">
               <div class="col-md-8">
-                <img src="{{  url('asset/even/'.$satu->gambar) }}" class="img-fluid rounded-start" alt="..." width="1000px">
+                <img src="{{  url('asset/even/'.$satu->gambar) }}" class="img-fluid rounded-start" alt="..." width="500px">
               </div>
               <div class="col-md-4">
                 <div class="card-body">
