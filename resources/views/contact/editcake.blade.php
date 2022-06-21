@@ -8,14 +8,14 @@
   <div class="card-header text-white">Edit Cake</div>
   <div class="card-body">
       
-      <form action="{{ url('/edit-cake/' .$makanan->id) }}" method="post">
+      <form action="{{ url('/edit-cake/' .$cake->id) }}" method="post">
         {!! csrf_field() !!}
        
-        <input type="hidden" name="id" id="id" value="{{$makanan->id}}" id="id" />
+        <input type="hidden" name="id" id="id" value="{{$cake->id}}" id="id" />
         <label class="text-white">Name</label></br>
-        <input type="text" name="nama" id="name" value="{{$makanan->nama}}" class="form-control"></br>
+        <input type="text" name="nama" id="name" value="{{$cake->nama}}" class="form-control"></br>
         <label class="text-white">Harga</label></br>
-        <input type="text" name="harga" id="address" value="{{$makanan->harga}}" class="form-control"></br>
+        <input type="text" name="harga" id="address" value="{{$cake->harga}}" class="form-control"></br>
 
         <input type="submit" value="Save" class="btn btn-warning"></br>
         </br>
