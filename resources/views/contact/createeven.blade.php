@@ -14,6 +14,8 @@
         <input type="text" name="nama" class="form-control"></br>    
         <label class="text-white">Select Gambar Event</label></br>
         <input type="file" name="gambar" id="gambar" class="form-control"></br>
+         <label class="text-white">Time</label></br>
+        <input type="date" name="waktu"></br>
         <label class="text-white">Deskripsi</label></br>
         <textarea name="deskirpsi" id="" cols="30" rows="10"></textarea>
         <input type="submit" value="Save" class="btn btn-warning"></br>
