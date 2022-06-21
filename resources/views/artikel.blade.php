@@ -19,7 +19,7 @@
             <img src="{{  url('asset/gambar/'.$item->gambar) }}" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
             @endforeach
             <p>
-              A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+             
             </p>
           </div>
           <br><br>
@@ -35,6 +35,7 @@
               <div class="col-md-4">
                 <div class="card-body">
                   <h5 class="card-title">Judul:{{ $satu->nama }}</h5>
+                   <p>Time:{{ $satu->waktu }}</p>
                   <p class="card-text">Artikel:<br>{{ $satu->deskripsi }}</p>
                 </div>            
          
