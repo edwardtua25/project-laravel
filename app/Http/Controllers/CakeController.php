@@ -37,19 +37,19 @@ class CakeController extends Controller
         return redirect('contact')->with('status', 'Menu berhasil di tambahkan');
     }
 
-    public function editdrink($id){
+    public function editcake($id){
         $cake = Cake::find($id);
 
         return view('contact.editcake',compact('cake'));
     }
 
-    public function proseseditdrink(Request $request, $id){
+    public function proseseditcake(Request $request, $id){
        $cake =Cake::find($id);
        $cake ->update($request->all());
 
        return redirect()->intended('contact')->with("flash_message", "Menu berhasil Diubah");
     }
-    public function deletedrink($id)
+    public function deletecake($id)
     {
         Cake::destroy($id);
         return redirect('contact')->with('flash_message', 'Data ini akan dihapus?');  
