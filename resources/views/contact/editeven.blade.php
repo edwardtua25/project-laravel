@@ -5,7 +5,7 @@
 
   <div class="container " style="padding-top: 20px;margin-top:20px">
 <div class="card bg-dark">
-  <div class="card-header text-white">Edit Cake</div>
+  <div class="card-header text-white">Edit Even</div>
   <div class="card-body">
       
       <form action="{{ url('/edit-even/' .$even->id) }}" method="post">
@@ -17,7 +17,7 @@
          <label class="text-white">Time</label></br>
         <input type="text" name="waktu" id="address" value="{{$even->waktu}}" class="form-control"></br> 
         <label class="text-white">Deskripsi</label></br>
-        <input type="text" name="deskripsi" id="address" value="{{$even->harga}}" class="form-control"></br>
+        <input type="text" name="deskripsi" id="address" value="{{$even->deskripsi}}" class="form-control"></br>
 
         <input type="submit" value="Save" class="btn btn-warning"></br>
         </br>
