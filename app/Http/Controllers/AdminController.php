@@ -12,6 +12,8 @@ use App\Models\Gambar;
 use App\Models\Feedback;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
+
 
 class AdminController extends Controller
 {
@@ -56,8 +58,12 @@ class AdminController extends Controller
      */
     public function store(Request $request)
     {
-        $input = $request->all();
-        Admin ::create($input);
+        $admin = new Admin();
+        $admin->name = $request->name;
+        $admin->email = $request->email;
+        $admin->username = $request->username;
+        $admin->password = Hash::make($request->password);
+        $admin->save();
         return redirect('contact')->with('flash_message', 'Contact Addedd!'); 
     }
   
