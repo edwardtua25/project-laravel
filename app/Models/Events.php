@@ -10,6 +10,6 @@ class Events extends Model
     use HasFactory;
     protected $table='events';
 
-    protected $fillable=['nama','deskripsi','gambar'];
+    protected $fillable=['nama','deskripsi','gambar','waktu'];
     public $timestamps = false;
 }
