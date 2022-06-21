@@ -18,7 +18,7 @@
             @foreach ($menu as $item)
             <img src="{{  url('asset/gambar/'.$item->gambar) }}" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
             @endforeach
-            <p>
+            <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;letter-spacing:2px">
             Halo sobat El Tona! Semangat Pagi! 
 Kali ini El Tona Coffee House menyediakan menu spesial loh hari ini! Kita ada Menu <b>Of The Day</b> yang dimana sobat El Tona akan dihidangkan menu yang disediakan hanya hari ini. 
 Seperti biasa El Tona CoffeeHouse selalu menghadirkan 8 menu yang akan tersedia pada hari ini.
