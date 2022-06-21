@@ -18,7 +18,7 @@ class EventsController extends Controller
         // return redirect()->intended('contact')->with("flash_message", "Menu berhasil Ditambahkan");
 
         $request->validate([
-            'nama' => ['required','max:8000','unique:events.nama'],
+            'nama' => ['required','max:8000','unique:events,nama'],
             'gambar' => 'required|image|mimes:jpeg,png,jpg|',
             'deskripsi' => 'required',
         ]);
