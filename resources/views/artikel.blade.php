@@ -19,13 +19,12 @@
             <img src="{{  url('asset/gambar/'.$item->gambar) }}" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
             @endforeach
             <p>
-             Halo semua!
-Hari ini kita punya menu <b>Of The Day</b> yang sangat menggugah selera tentunya bisa menuntaskan rasa lapar dan haus kalian.
+            Halo sobat El Tona! Semangat Pagi! 
+Kali ini El Tona Coffee House menyediakan menu spesial loh hari ini! Kita ada Menu <b>Of The Day</b> yang dimana sobat El Tona akan dihidangkan menu yang disediakan hanya hari ini. 
 Seperti biasa El Tona CoffeeHouse selalu menghadirkan 8 menu yang akan tersedia pada hari ini.
-Karena menu hari ini belum tentu ada di esok hari,jadi tunggu apalagi? berkunjung lah sebelum kehabisan!
-Ayooo...
-Jangan sampai  ketinggalan yaaa,
-Ditunggu kedatangannya
+Jangan ragu ya sobat, dengan adanya event ini kantong kamu bakalan aman banget loh. Harganya terjangkau dan kamu pasti dapat paket komplit. 
+Dengan adanya Menu Of The Day ini, kantong kamu bakal lebih irit! Yuk, buruan gabung di El Tona CoffeeHouse dan buruan pesan Menu Of The Day kita hari ini! Terbatas lohh, jangan sampai kehabisan sobat!
+           
             </p>
           </div>
           <br><br>
@@ -35,7 +34,7 @@ Ditunggu kedatangannya
           @foreach ($even as $satu)
           <div class="card mb-5" style="max-width:2000px;">
             <div class="row g-0">
-              <div class="col-md-8">
+              <div class="col-md-5">
                 <img src="{{  url('asset/even/'.$satu->gambar) }}" class="img-fluid rounded-start" alt="..." width="500px">
               </div>
               <div class="col-md-4">
