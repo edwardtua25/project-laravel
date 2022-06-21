@@ -14,6 +14,8 @@
         <input type="hidden" name="id" id="id" value="{{$even->id}}" id="id" />
         <label class="text-white">Name</label></br>
         <input type="text" name="nama" id="name" value="{{$even->nama}}" class="form-control"></br>
+         <label class="text-white">Time</label></br>
+        <input type="text" name="waktu" id="address" value="{{$even->waktu}}" class="form-control"></br> 
         <label class="text-white">Deskripsi</label></br>
         <input type="text" name="deskripsi" id="address" value="{{$even->harga}}" class="form-control"></br>
 
