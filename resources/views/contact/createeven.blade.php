@@ -17,7 +17,7 @@
          <label class="text-white">Time</label></br>
         <input type="date" name="waktu"></br>
         <label class="text-white">Deskripsi</label></br>
-        <textarea name="deskirpsi" id="" cols="30" rows="10"></textarea>
+        <textarea name="deskripsi" id="" cols="30" rows="10"></textarea>
         <input type="submit" value="Save" class="btn btn-warning"></br>
     </form>
   </div>
