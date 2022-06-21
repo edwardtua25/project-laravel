@@ -29,7 +29,7 @@ class EventsController extends Controller
 
         $file->move($tujuanFile,$namafile);
 
-        $newMobil = new Events;
+        $newMobil = new Events();
         $newMobil->nama = $request->nama;
         $newMobil->gambar = $namafile;
         $newMobil->deskripsi = $request->deskripsi;
