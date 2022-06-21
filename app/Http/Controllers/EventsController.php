@@ -35,7 +35,7 @@ class EventsController extends Controller
         $newMobil->deskripsi = $request->deskripsi;
          $newMobil->waktu = $request->waktu;
         $newMobil->save();
-        return redirect('/admin-even')->with('status', 'Menu berhasil di tambahkan');
+        return redirect('contact')->with('status', 'Menu berhasil di tambahkan');
     }
 
     public function editeven($id){
