@@ -18,8 +18,8 @@
       </div>
       <div class="col-md-4">
         <div class="card-body">
-           <h6 class="card-title" style="font-family: Verdana, Geneva, Tahoma, sans-serif">Caption:{{ $galeri->deskripsi }}</h6>
-          <p class="card-text" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;letter-spacing:2px;">Artikel:<br>{{ $galeri->artikel }}</p>
+           <h6 class="card-title" style="font-family: Verdana, Geneva, Tahoma, sans-serif"><b>Caption:</b>{{ $galeri->deskripsi }}</h6>
+          <p class="card-text" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;letter-spacing:2px;"><b>Artikel</b>:<br>{{ $galeri->artikel }}</p>
         </div>
       </div>
     </div>
