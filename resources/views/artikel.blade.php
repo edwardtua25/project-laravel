@@ -22,6 +22,7 @@
             Halo sobat El Tona! Semangat Pagi! 
 Kali ini El Tona Coffee House menyediakan menu spesial loh hari ini! Kita ada Menu <b>Of The Day</b> yang dimana sobat El Tona akan dihidangkan menu yang disediakan hanya hari ini. 
 Seperti biasa El Tona CoffeeHouse selalu menghadirkan 8 menu yang akan tersedia pada hari ini.
+
 Jangan ragu ya sobat, dengan adanya event ini kantong kamu bakalan aman banget loh. Harganya terjangkau dan kamu pasti dapat paket komplit. 
 Dengan adanya Menu Of The Day ini, kantong kamu bakal lebih irit! Yuk, buruan gabung di El Tona CoffeeHouse dan buruan pesan Menu Of The Day kita hari ini! Terbatas lohh, jangan sampai kehabisan sobat!
            
