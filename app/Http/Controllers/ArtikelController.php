@@ -11,7 +11,7 @@ class ArtikelController extends Controller
 
     DB::statement("SET SQL_MODE=''");
     $menu =  DB::table('gambar')->latest('id')->paginate(1);
-    $even =  DB::table('events')->latest('id')->paginate(1);
+    $even =  DB::table('events')->latest('id')->paginate(10);
     return view('artikel')->with(['menu'=>$menu,'even'=>$even]);
 
     }
