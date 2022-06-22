@@ -9,7 +9,7 @@
                 Media Sosial
             </div>
           <div >
-            <p><i class="fa-brands fa-instagram-square"></i>&nbsp @el_tiba_coffehouse</p>
+            <p><i class="fa-brands fa-instagram-square"></i>&nbsp @el_tona_coffehouse</p>
             <p><i class="fa-brands fa-facebook-square"></i>&nbsp El Tona Coffehouse Tomok Samosir</p>
             <p><i class="fa-brands fa-whatsapp-square"></i>&nbsp +62 822-7529-0093</p>
           </div>
