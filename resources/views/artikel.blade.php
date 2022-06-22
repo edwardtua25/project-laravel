@@ -41,7 +41,7 @@ Dengan adanya Menu Of The Day ini, kantong kamu bakal lebih irit! Yuk, buruan ga
               <div class="col-md-4">
                 <div class="card-body">
                    <h6 class="card-title" style="font-family: Verdana, Geneva, Tahoma, sans-serif">Judul:{{ $satu->nama }}</h6>
-                  <p style="background-color: antiquewhite;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Time:{{ $satu->waktu }}</p>
+                  <p style="background-color: antiquewhite;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Waktu:{{ $satu->waktu }}</p>
                   <p class="card-text" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;letter-spacing:2px;">Artikel:<br>{{ $satu->deskripsi }}</p>
  
                 </div>            
