@@ -46,7 +46,7 @@ Dengan adanya Menu Of The Day ini, kantong kamu bakal lebih irit! Yuk, buruan ga
  
                 </div>            
          
-              </div> @endforeach
+              </div><br> @endforeach
             </div>
           </div>
        </div>
