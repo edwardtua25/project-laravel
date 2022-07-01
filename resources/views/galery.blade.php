@@ -178,7 +178,7 @@ img{
       </style>
     </head>
     <body>
-		<center style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;text-decoration:underline;"><b><h3>Galery El Tona CoffeHouse</h3></b></center>
+		<center style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;text-decoration:underline;"><b><h3>Gallery El Tona CoffeHouse</h3></b></center>
       <!--image card layout start-->
       <div class="container">
         <!--image row start-->
