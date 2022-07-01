@@ -143,5 +143,23 @@ Route::get("/footer/{id}", [HomeController::class, 'feedback'])->name('layout.fo
 Route::resource('/artikel',ArtikelController::class);
 Route::resource('/admin-even',BladeController::class);
 
+//admin
+Route::resource('/admin-event',AdminEventController::class);
+Route::resource('/admin-feedback',AdminFeedbackController::class);
+Route::resource('/admin-mfd',AdminMFDController::class);
+Route::resource('/admin-galeri',AdminGaleriController::class);
+Route::resource('/admin-food',AdminFoodController::class);
+Route::resource('/admin-drink',AdminDrinkController::class);
+Route::resource('/admin-cake',AdminCakeController::class);
+Route::resource('/admin-user',AdminUserController::class);
+
+//menu-user
+Route::resource('/menu-food',UserFoodController::class);
+Route::resource('/menu-drink',UserDrinkController::class);
+Route::resource('/menu-cake',UserCakeController::class);
+
+
+
+
 
 
