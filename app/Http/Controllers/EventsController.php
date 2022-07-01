@@ -35,7 +35,7 @@ class EventsController extends Controller
         $newMobil->deskripsi = $request->deskripsi;
          $newMobil->waktu = $request->waktu;
         $newMobil->save();
-        return redirect('contact')->with('status', 'Menu berhasil di tambahkan');
+        return redirect('admin-event')->with('status', 'Menu berhasil di tambahkan');
     }
 
     public function editeven($id){
@@ -48,11 +48,11 @@ class EventsController extends Controller
        $even =Events::find($id);
        $even ->update($request->all());
 
-       return redirect()->intended('contact')->with("flash_message", "Menu berhasil Diubah");
+       return redirect()->intended('admin-event')->with("flash_message", "Menu berhasil Diubah");
     }
     public function deleteeven($id)
     {
         Events::destroy($id);
-        return redirect('contact')->with('flash_message', 'Data ini akan dihapus?');  
+        return redirect('admin-event')->with('flash_message', 'Data ini akan dihapus?');  
     }
 }
