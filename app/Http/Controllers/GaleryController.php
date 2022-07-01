@@ -24,7 +24,7 @@ class GaleryController extends Controller
         $newGaleri -> artikel = $request->artikel;
 
         $newGaleri->save();
-        return redirect()->intended('contact')->with("flash_message", "Menu berhasil Ditambahkan");
+        return redirect()->intended('admin-galeri')->with("flash_message", "Menu berhasil Ditambahkan");
 
     }
     public function editgaleri($id){
@@ -36,11 +36,11 @@ class GaleryController extends Controller
     public function proseseditgaleri(Request $request, $id){
         $galeri =Galeri::find($id);
         $galeri ->update($request->all());
-        return redirect()->intended('contact')->with("flash_message", "Galery berhasil Diubah");
+        return redirect()->intended('admin-galeri')->with("flash_message", "Galery berhasil Diubah");
      }
      public function deletegalery($id)
      {
         Galeri::destroy($id);
-         return redirect()->intended('contact')->with('flash_message', 'Data ini akan dihapus?');  
+         return redirect()->intended('admin-galeri')->with('flash_message', 'Data ini akan dihapus?');  
      }
 }
