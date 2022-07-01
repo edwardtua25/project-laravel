@@ -34,7 +34,7 @@ class FoodController extends Controller
         $newMobil->gambar = $namafile;
         $newMobil->harga = $request->harga;
         $newMobil->save();
-        return redirect('contact')->with('status', 'Menu berhasil di tambahkan');
+        return redirect('admin-food')->with('status', 'Menu berhasil di tambahkan');
     }
 
     public function editfood($id){
@@ -47,11 +47,11 @@ class FoodController extends Controller
        $makanan =Food::find($id);
        $makanan ->update($request->all());
 
-       return redirect()->intended('contact')->with("flash_message", "Menu berhasil Diubah");
+       return redirect()->intended('admin-food')->with("flash_message", "Menu berhasil Diubah");
     }
     public function deletefood($id)
     {
         Food::destroy($id);
-        return redirect('contact')->with('flash_message', 'Data ini akan dihapus?');  
+        return redirect('admin-food')->with('flash_message', 'Data ini akan dihapus?');  
     }
 }
