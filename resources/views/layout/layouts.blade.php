@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>El Tona CoffeeHouse</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
     <style>
         .navbar{
             background-color:  #010101;
@@ -26,7 +29,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark ">
         <div class="container-fluid">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-         <img src="Logo_ElTona.jpeg" style="width:3.5cm;height:2cm;" alt="">
+         <img src="Logo_Eltona.jpeg" style="width:3.5cm;height:2cm;" alt="">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -35,9 +38,17 @@
               <li class="nav-item">
                 <a class="nav-link active text-white" aria-current="page" href="home">Home</a>
               </li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-              <li class="nav-item">
-                <a class="nav-link text-white" href="menu">Menu</a>
-              </li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item text-white" href="menu-food">Food</a></li>
+                  <li><a class="dropdown-item text-white" href="menu-drink">Drink</a></li>
+                  <li><a class="dropdown-item text-white" href="menu-cake">Cake</a></li>
+                </ul>
+              </li>              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
               <li class="nav-item">
                 <a class="nav-link text-white" href="artikel">Article</a>
               </li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
@@ -45,7 +56,7 @@
                 <a class="nav-link text-white" href="tentang">About Us</a>
               </li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
               <li class="nav-item">
-                <a class="nav-link text-white" href="galery">Galery</a>
+                <a class="nav-link text-white" href="galery">Gallery</a>
               </li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
              
               
@@ -95,7 +106,7 @@
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="1000">
-                <img src="edit2.jpg" class="d-block  w-100"  alt="...">
+                <img src="edit2.JPG" class="d-block  w-100"  alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h3 style="color:#1c1c1c;display:inline-flex;background-color:rgba(246, 174, 80, 0.537)">Kami menyediakan berbagai macam menu makanan dan minuman kesukaan anda</h3>
                   <p style="color: #1c1c1c;display:inline-flex;background-color:rgba(246, 174, 80, 0.537)">Anda dapat mengunjungi tempat kami secara langsung</p>
@@ -126,7 +137,9 @@
 
 
 
-
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+      
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
