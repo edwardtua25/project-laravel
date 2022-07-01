@@ -10,7 +10,7 @@
       
       <form action="{{ url('/edit-cake/' .$cake->id) }}" method="post">
         {!! csrf_field() !!}
-       
+        {{-- @method("PATCH") --}}
         <input type="hidden" name="id" id="id" value="{{$cake->id}}" id="id" />
         <label class="text-white">Name</label></br>
         <input type="text" name="nama" id="name" value="{{$cake->nama}}" class="form-control"></br>
