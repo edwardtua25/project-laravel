@@ -34,7 +34,7 @@ class CakeController extends Controller
         $newMobil->gambar = $namafile;
         $newMobil->harga = $request->harga;
         $newMobil->save();
-        return redirect('contact')->with('status', 'Menu berhasil di tambahkan');
+        return redirect('admin-cake')->with('status', 'Menu berhasil di tambahkan');
     }
 
     public function editcake($id){
@@ -47,11 +47,11 @@ class CakeController extends Controller
        $cake =Cake::find($id);
        $cake ->update($request->all());
 
-       return redirect()->intended('contact')->with("flash_message", "Menu berhasil Diubah");
+       return redirect()->intended('admin-cake')->with("flash_message", "Menu berhasil Diubah");
     }
     public function deletecake($id)
     {
         Cake::destroy($id);
-        return redirect('contact')->with('flash_message', 'Data ini akan dihapus?');  
+        return redirect('admin-cake')->with('flash_message', 'Data ini akan dihapus?');  
     }
 }
