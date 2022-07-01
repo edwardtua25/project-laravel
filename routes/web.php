@@ -29,6 +29,8 @@ use App\Http\Controllers\AdminEventController;
 use App\Http\Controllers\AdminGaleriController;
 use App\Http\Controllers\RegistrationController;
 use App\Http\Controllers\AdminFeedbackController;
+use App\Http\Controllers\AdminMFDController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
