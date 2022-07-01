@@ -59,7 +59,7 @@ class FeedbackController extends Controller
         public function deletefeedback($id)
         {
            Feedback::destroy($id);
-            return redirect()->intended('contact')->with('flash_message', 'Data ini akan dihapus?');  
+            return redirect()->intended('admin-feedback')->with('flash_message', 'Data ini akan dihapus?');  
         }
     }
 
