@@ -109,9 +109,9 @@
           <img src="el.jpg" alt="">
         </div>
         <div class="card-content">
-          <h3>Martoba Sidabutar</h3>
+          <h3>Hartoba Sidabutar</h3>
           <span><h5 style="text-decoration:black;text-align:center;">(FOUNDER)</h5></span>
-          <p>Bapak Martoba adalah pendiri El Tona CoffeeHouse pada tahun 10 Juni 2018 yang belokasi di Jl. Pulau Samosir, Ambarita, Simanindo, Kabupaten Samosir, Sumatera Utara 22395</p>
+          <p>Bapak Hartoba adalah pendiri El Tona CoffeeHouse pada tahun 10 Juni 2018 yang belokasi di Jl. Pulau Samosir, Ambarita, Simanindo, Kabupaten Samosir, Sumatera Utara 22395</p>
         </div>
         <div class="icons">
           <a href="https://instagram.com/el_tona_coffeehouse?igshid=YmMyMTA2M2Y=" class="fab fa-instagram"></a>
