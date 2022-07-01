@@ -17,7 +17,6 @@ use App\Http\Controllers\ArtikelController;
 use App\Http\Controllers\GambarsController;
 use App\Http\Controllers\FeedbackController;
 use App\Http\Controllers\RegistrationController;
-
 use App\Http\Controllers\UserCakeController;
 use App\Http\Controllers\UserFoodController;
 use App\Http\Controllers\AdminCakeController;
@@ -27,7 +26,6 @@ use App\Http\Controllers\UserDrinkController;
 use App\Http\Controllers\AdminDrinkController;
 use App\Http\Controllers\AdminEventController;
 use App\Http\Controllers\AdminGaleriController;
-use App\Http\Controllers\RegistrationController;
 use App\Http\Controllers\AdminFeedbackController;
 use App\Http\Controllers\AdminMFDController;
 
