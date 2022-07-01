@@ -42,6 +42,9 @@ Route::get('/galery',function(){
 Route::get('/artikel',function(){
     return view('artikel');
 });
+Route::get('/admin', function () {
+    return view ('layout.header');
+});
 
 Route::get('/login', [LoginController:: class, 'index1'])->middleware('guest');
 Route::post('/login', [LoginController:: class, 'authenticate']);
