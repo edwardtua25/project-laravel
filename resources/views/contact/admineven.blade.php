@@ -1,4 +1,4 @@
-@extends('contact.header.header')
+@extends('layout.header')
 @section('header')
 <link rel="stylesheet" href="admin.css">
 <?php 
