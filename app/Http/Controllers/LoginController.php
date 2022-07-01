@@ -23,7 +23,7 @@ class LoginController extends Controller
             $input = $request->all();
             if(auth()->attempt(array('email' => $input['email'],'password'=> $input['password']))){
                 if(auth()->user()->role == "a"){
-                    return redirect('contact');
+                    return redirect('admin-user');
                 }else{
                     return redirect('/home');
                 }
