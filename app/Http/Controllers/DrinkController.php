@@ -34,7 +34,7 @@ class DrinkController extends Controller
         $newMobil->gambar = $namafile;
         $newMobil->harga = $request->harga;
         $newMobil->save();
-        return redirect('contact')->with('status', 'Menu berhasil di tambahkan');
+        return redirect('admin-drink')->with('status', 'Menu berhasil di tambahkan');
     }
 
     public function editdrink($id){
@@ -47,11 +47,11 @@ class DrinkController extends Controller
        $drink =Drink::find($id);
        $drink ->update($request->all());
 
-       return redirect()->intended('contact')->with("flash_message", "Menu berhasil Diubah");
+       return redirect()->intended('admin-drink')->with("flash_message", "Menu berhasil Diubah");
     }
     public function deletedrink($id)
     {
         Drink::destroy($id);
-        return redirect('contact')->with('flash_message', 'Data ini akan dihapus?');  
+        return redirect('admin-drink')->with('flash_message', 'Data ini akan dihapus?');  
     }
 }
